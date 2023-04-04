@@ -30,4 +30,5 @@ const dataGenerator = new DataPointGenerator<TemperatureDataPoint>(
 
 simulator.dataPointGenerator = dataGenerator;
 
+// Power on the simulator with a 5-second interval between data points
 simulator.powerOn(5);
