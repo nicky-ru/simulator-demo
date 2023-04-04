@@ -1,0 +1,23 @@
+{
+  "name": "simulator-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsc && node --experimental-specifier-resolution=node dist/index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nick-iotex/w3bstream-http-client-simulator": "^0.2.4",
+    "axios": "^1.3.4",
+    "dotenv": "^16.0.3",
+    "elliptic": "^6.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "typescript": "^5.0.3"
+  }
+}
